@@ -16,17 +16,17 @@ Although implementation with variable length is possible, we padded zeros each i
 
 The experiments can be run as follows:
 
-on MATLAB:
+**On MATLAB:** (for SIF feature extraction)
 
-create_database;
-extract_sif;
-extract_sif_plus;
-export_data_tensorflow;
-export_data_tensorflow_plus;
-export_data_multicondition_tensorflow;
-export_data_multicondition_tensorflow_plus;
+create_database;  
+extract_sif;  
+extract_sif_plus;  
+export_data_tensorflow;  
+export_data_tensorflow_plus;  
+export_data_multicondition_tensorflow;  
+export_data_multicondition_tensorflow_plus;  
 
-on tensorflow:
+**On Tensorflow:** (for CNN training and evaluation)
 
 bash run.sh
 
